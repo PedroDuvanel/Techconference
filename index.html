@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <title>Cadastro para o Tech conference 2024</title>
+</head>
+<body>
+    <div class="container"> 
+        <header class="header"> 
+            <nav>
+                <ul class="navbar-items"> 
+                    <li class="item"><a href="#sobre_evento">Sobre o evento</a></li>
+                    <li><a href="#cadastro">Cadastro</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="sobre_evento" class="SectionInfo">
+            <div class="info_evento">
+                <h2>Sobre o evento</h2>
+                <p>O Tech Conference 2024 é o maior evento de tecnologia do ano, reunindo especialistas de todo o mundo para discutir inovações e tendências.</p>
+                <p><strong>Data:</strong>14 a 16 de Outubro de 2024<br>
+                <strong>Local:</strong>Centro de Convenções São Paulo, Av. das Nações Unidas, 13.850, São Paulo, SP.</p>
+                <h2>Destaques do Evento:</h2>
+                <ul>
+                    <li><strong>Palestras Inspiradoras:</strong>Assista a apresentações de líderes e visionários da indústria de tecnologia, incluindo CEOs, desenvolvedores e futuristas.</li>
+                    <li><strong>Workshops Práticos:</strong>Participe de workshops interativos sobre temas como inteligência artificial, blockchain, desenvolvimento de software e muito mais.</li>
+                    <li><strong>Exposições de Inovação:</strong>Explore as mais recentes inovações tecnológicas em nossa área de exposições, com demonstrações ao vivo e oportunidades de networking.</li>
+                </ul>
+                <img src="./img/tech conference.jpg" alt="techconference">
+            </div>
+        </section>
+
+        <section id="cadastro">
+            <div class="info">
+                <h3>Cadastro</h3>
+                <form id="meu_formulario">
+                    <div class="input_wrapper"> 
+                        <label for="nome">Nome :</label>
+                        <input type="text" id="nome" name="name" placeholder="Digite o seu nome...">
+                    </div>
+
+                    <div class="input_wrapper"> 
+                        <label for="sobrenome">Sobrenome :</label>
+                        <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite o seu sobrenome...">
+                    </div>
+
+                    <div class="input_wrapper"> 
+                        <label for="mail">Email :</label>
+                        <input type="email" id="mail" name="mail" placeholder="Digite o seu email...">
+                    </div>
+
+                    <div class="input_wrapper"> 
+                        <label for="telefone">Telefone :</label>
+                        <input type="tel" id="telefone" name="tel" placeholder="Digite o seu número...">
+                    </div>
+
+                    <div class="input_wrapper">
+                        <label for="options">Workshop :</label>
+                        <select id="options" name="options">
+                            <option value="Aovivo">DeveloperWeek</option>
+                            <option value="pod">GameNight</option>
+                            <option value="Ment">I.A Exposition</option>
+                        </select>
+
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="news_letters" />
+                            <label for="news_letters">Desejo receber newsletter.</label>
+                        </div>
+
+                        <button class="summit" form="meu_formulario">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="contact_container">
+                <h3>Contato</h3>
+                <h4>Siga-nos nas Redes Sociais:</h4>
+                <ul>
+                    <li><strong>Facebook: </strong>\TechConference2024</li>
+                    <li><strong>Instagram: </strong>@TechConf2024</li>
+                    <li><strong>X: </strong>@TechConf2024</li>
+                </ul>
+                <p>Para mais informações, entre em contato conosco pelo email techconference2024@exemplo.com.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
